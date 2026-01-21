@@ -1,6 +1,6 @@
 describe('Testes Funcionais - Login', () => {
 
-  let user.
+  let user
 
   beforeEach(() => {
     user = {
