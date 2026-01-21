@@ -31,12 +31,9 @@ dos principais tipos de testes utilizados no dia a dia de QA:
 ## Estrutura do Projeto
 
 cypress/e2e
-├── smoke
-│ └── Testes críticos para validar se a API está funcionando
-├── funcional
-│ └── Validação do comportamento esperado das funcionalidades
-└── regressivo
-└── Garantia de que funcionalidades existentes não foram impactadas
+├── smoke # Testes críticos da aplicação
+├── funcional # Testes de validação das funcionalidades
+└── regressivo # Testes de regressão
 
 
 ---
