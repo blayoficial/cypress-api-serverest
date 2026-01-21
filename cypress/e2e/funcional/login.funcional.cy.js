@@ -25,7 +25,7 @@ describe('Testes Funcionais - Login', () => {
     })
   })
 
-  it('02 - Login com senha inválida', () => {
+  it('02 - Login com senha invalida', () => {
     cy.request({
       method: 'POST',
       url: 'https://serverest.dev/login',
